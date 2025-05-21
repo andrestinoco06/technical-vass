@@ -1,0 +1,10 @@
+Bundle-Name: register-api
+Bundle-SymbolicName: com.vass.register.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.vass.register.exception,\
+	com.vass.register.model,\
+	com.vass.register.service,\
+	com.vass.register.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../register-service/service.xml

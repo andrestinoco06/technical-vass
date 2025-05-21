@@ -1,0 +1,1 @@
+create index IX_406E09AF on CUSTOMUSER_CustomUser (uuid_[$COLUMN_LENGTH:75$]);

@@ -1,0 +1,7 @@
+Bundle-Name: register-panel-app
+Bundle-SymbolicName: com.vass.register.panel
+Bundle-Version: 1.0.0
+Export-Package: com.vass.register.panel.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"

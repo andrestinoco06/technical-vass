@@ -1,0 +1,7 @@
+Bundle-Name: register-web
+Bundle-SymbolicName: com.vass.register.web
+Bundle-Version: 1.0.0
+Export-Package: com.vass.register.web.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"
